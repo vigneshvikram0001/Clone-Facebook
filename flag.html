@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone | Meta</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-left">
+        <div class="img">
+          <span class="material-icons facebook" style="font-size: 50px">
+            facebook
+          </span>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search Facebook" />
+          <span class="material-icons"> search </span>
+        </div>
+      </div>
+      <div class="header-mid">
+        <span class="material-icons head-icon"><a class="icon" href="./index.html"> home </a></span>
+        <span class="material-icons head-icon active"><a class="icon" href="./flag.html"> flag </a></span>
+        <span class="material-icons head-icon"><a class="icon" href="./videos.html"> smart_display </a></span>
+        <span class="material-icons head-icon"><a class="icon" href="./store.html"> store_mall_directory </a></span>
+        <span class="material-icons head-icon"><a class="icon" href="./group.html"> group </a></span>
+      </div>
+      <div class="header-right">
+        <div class="avatar">
+          <img src="./img/avatar.jfif" alt="Avatar Image" class="avatar-img" />
+          <h3 class="user-name">Jai Sri</h3>
+        </div>
+        <div class="chat">
+          <span class="material-icons"> add_circle_outline </span>
+          <span class="material-icons"> question_answer </span>
+          <span class="material-icons"> qr_code_scanner </span>
+          <span class="material-icons"> expand_more </span>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+    <section class="main-page">
+      <div class="sidebar">
+        <div class="avatar">
+          <img src="../img/avatar.jfif" alt="Avatar Image" class="avatar-img" />
+          <h3 class="user-name">Jai Sri</h3>
+        </div>
+        <hr />
+        <div class="sidebar-content">
+          <div class="side">
+            <span class="material-icons"> handshake </span>
+            <h3>Covid-19 Center</h3>
+          </div>
+          <div class="side">
+            <span class="material-icons"> outlined_flag </span>
+            <h3>Page</h3>
+          </div>
+          <div class="side">
+            <span class="material-icons"> people </span>
+            <h3>People</h3>
+          </div>
+          <div class="side">
+            <span class="material-icons"> message </span>
+            <h3>Message</h3>
+          </div>
+          <div class="side">
+            <span class="material-icons"> storefront </span>
+            <h3>Marketplace</h3>
+          </div>
+          <div class="side">
+            <span class="material-icons"> video_library </span>
+            <h3>Videos</h3>
+          </div>
+          <div class="side">
+            <span class="material-icons"> keyboard_arrow_down </span>
+            <h3>More</h3>
+          </div>
+        </div>
+      </div>
+      <div class="facebook-flag">
+        <div
+        class="fb-page"
+        data-href="https://www.facebook.com/facebook"
+        data-tabs="timeline"
+        data-width="315"
+        data-height="1000"
+        data-small-header="true"
+        data-adapt-container-width="true"
+        data-hide-cover="true"
+        data-show-facepile="true"
+      >
+        <blockquote
+          cite="https://www.facebook.com/facebook"
+          class="fb-xfbml-parse-ignore"
+        >
+          <a href="https://www.facebook.com/facebook">Facebook</a>
+        </blockquote>
+      </div>
+      </div>
+    </section>
+
+    <!-- widgets -->
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v16.0"
+      nonce="TTK6Ylm8"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
