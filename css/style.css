@@ -461,7 +461,7 @@ video{
 /* story */
 
 .story-card{
-    background-color: #fff;
+    background-color:#000;
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -472,8 +472,9 @@ video{
     transition: .35s ease;
 }
 .story-card .display-story{
-    width: 100%;
+    width: 500px;
     height: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     padding: 1.5rem 1rem 2rem;
@@ -495,8 +496,9 @@ video{
     position: absolute;
     top: 1rem;
     right: 10px;
-    font-size: 3rem;
+    font-size: 5rem;
     color: #ff0000;
+    cursor: pointer;
 }
 .story-card.active{
     display: block;
@@ -607,6 +609,9 @@ video{
     .group-avatar-name .group-h3{
         font-size: 1rem;
     }
+    .story-card .display-story{
+        width: 350px;
+    }
     
 }
 @media (max-width:350px){
@@ -632,6 +637,9 @@ video{
     .card{
         width: 9rem;
         height: 15rem;
+    }
+    .story-card .display-story{
+        width: 310px;
     }
 }
 .tab2-btn{
